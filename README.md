@@ -15,7 +15,7 @@ Configuration:
 
 - Qlik Sense Server
   1. Create a new Virtual proxy with a prefix of your choice (you'll need this prefix when configuring the NodeJS site.
-  2. Populate the 'Authentication module redirect URI' with - http://<node_server>:3000/authenticate
+  2. Populate the 'Authentication module redirect URI' with - http://node_server:3000/authenticate
     - Port 3000 is configured in the index.js file of the NodeJS site and can be changed if desired.
   3. Add the following 'Additional response header' - Access-Control-Allow-Origin:*
   4. Export the certificate, giving it the name of the NodeJS machine and copy it to the root of the NodeJS project.
