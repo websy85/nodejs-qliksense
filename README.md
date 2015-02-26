@@ -15,7 +15,7 @@ Configuration:
     - The solution uses the qlik-auth node package which is configured as a dependency and will be installed automatically when you execute the 'npm install' command.  
   4. Using a text editor, open the script.js file in the 'public' folder and update the config, appId and objectId variables to reflect your environment -
     - NOTE: Refer to the following link if you are unsure on how to obtain the appId and objectId
-    - http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/HowTos/qswb_mup_obtainobjectid.htm?Highlight=single.html
+    - [Obtaining app id's and object id's](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/HowTos/obtain-app-object-id.htm)
 
 - Qlik Sense Server
   1. Open the QMC (Qlik Management Console) and navigate to the 'Proxies' area.
@@ -28,7 +28,7 @@ Configuration:
   7. Export the certificate, giving it the name of the Node.js machine. By default this is saved in C:\ProgramData\Qlik\Sense\Repository\Exported Certificates. 
   8. Copy the certificate to the root of the Node.js project.
     - NOTE: Refer to the following link for help on exporting certificates
-    - http://help.qlik.com/sense/en-US/online/#../Subsystems/Qlik_Management_Console_help/Content/QMC_Resources_Certificates_Export.htm?Highlight=export
+    - [Exporting Certificates](http://help.qlik.com/sense/en-US/online/#../Subsystems/ManagementConsole/Content/QMC_Resources_Certificates_Export.htm?Highlight=export)
 
 The Authentication Communication Workflow:
   1. The script.js file in the public folder tries to load the qlik.js mashup API from the configured Qlik Sense Server.
