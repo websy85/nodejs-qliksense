@@ -1,6 +1,6 @@
 # nodejs-qliksense
 A basic example of using a Node.js backend to integrate with the Qlik Sense Server Mashup API.
-NOTE: This solution is built to make configuration/distribution simple and provide a foundation for understanding how to create such an environment. It is not designed as a basis for a production solution, however, you may wish to change some elements to make the solution more dynamic for your environment.
+NOTE: This solution is built to make configuration/distribution simple and provide a foundation for understanding how to create such an environment. It should be considered a building block rather than a production ready solution as it does not cover such things as security.
 The example uses the Node.js 'http' module to run a simple web server. For more information on the 'http' module please refer to the Node.js documentation - http://nodejs.org/api/http.html
 
 Pre-requisites:
