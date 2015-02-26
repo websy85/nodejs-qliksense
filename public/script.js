@@ -1,6 +1,6 @@
 var config = {
 	host: "",
-	prefix: "",
+	prefix: "",	//this should be the name of the virtual proxy. For example "/nodeexample/"
 	port: 80,
 	isSecure: window.location.protocol === "https:"
 };
