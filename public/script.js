@@ -15,8 +15,8 @@ var objectId="";
 	  qlik.setOnError( function ( error ) {
 	    alert( error.message );
 	  } );
-	  var app = qlik.openApp(, config);
-	  app.getObject("qv1", appId);
+	  var app = qlik.openApp(appId, config);
+	  app.getObject("qv1", objectId);
 	} );
 
 function loadCss(url) {
