@@ -13,7 +13,8 @@ Configuration:
   2. Browse to the directory of the nodejs-qliksense solution you have just downloaded.
   3. Install the package by executing 'npm install' in this directory.
     - The solution uses the qlik-auth node package which is configured as a dependency and will be installed automatically when you execute the 'npm install' command.  
-  4. Using a text editor, open the script.js file in the 'public' folder and update the config, appId and objectId variables to reflect your environment -
+  4. Using a text editor, open the index.html file and update the hostname and port in the script tags on line 6 to point to your qlik server.
+  5. Using a text editor, open the script.js file in the 'public' folder and update the config, appId and objectId variables to reflect your environment -
     - NOTE: Refer to the following link if you are unsure on how to obtain the appId and objectId
     - [Obtaining app id's and object id's](http://help.qlik.com/sense/en-us/developer/#../Subsystems/Workbench/Content/BuildingWebsites/HowTos/obtain-app-object-id.htm)
 
