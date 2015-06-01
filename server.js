@@ -7,7 +7,8 @@ var contentTypeMap = {
   "js":"text/javascript",
   "html":"text/html",
   "css":"text/css",
-  "ttf":"font/ttf"
+  "ttf":"font/ttf",
+  "ico":"image/x-icon"
 };
 
 var server = http.createServer(function(req, res){
