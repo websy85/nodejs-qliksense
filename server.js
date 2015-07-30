@@ -45,7 +45,12 @@ function serveFile(url, res){
   console.log(contentType);
   fs.readFile(url, function(err, data){
     res.writeHead(200, {'Content-Type':contentType});
-    res.write(data);
+    if(contentType=="image/x-icon"){
+      res.write(""+data);
+    }
+    else {
+      res.write(data);
+    }
     res.end();
   })
 }
